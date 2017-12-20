@@ -2,7 +2,7 @@
 body {
     color: #ccc;
     background-color: #303030;
-	font-weight: 300 !important;
+    font-weight: 300 !important;
 }
 .navbar-default {
     background-color: #262626;
@@ -10,12 +10,12 @@ body {
 }
 thead,th {
     background: #404040;
-        font-weight: 300;
-color:#666;
+    font-weight: 300;
+    color:#666;
     margin-bottom:2px;
 }
 tbody {
-        background: #404040;
+    background: #404040;
 }
 a.currency-name-container {
     font-weight: 300;
@@ -23,7 +23,7 @@ a.currency-name-container {
 }
 a.price {
     color: rgb(99, 185, 218) ;
-        font-size: 18px;
+    font-size: 18px;
 }
 .positive_change {
     color: #4ad77c;
@@ -59,7 +59,6 @@ a.price {
     border: 1px solid #292929;
 }
 .sorting_asc {
-  
     border-left: 0px solid #303030;
     border-right: 1px solid #292929;
 }
@@ -166,7 +165,7 @@ hr {
 }
 .nav-tabs>li>a.dropdown-toggle, .open>a:hover {
     background-color: #303030 !important;
-	border-width: 0 0 0 0;
+    border-width: 0 0 0 0;
 }
 .nav-tabs>li>a {
     margin-right: 2px;
@@ -208,7 +207,7 @@ table#currencies>tbody>tr>td {
     background-color: #404040; 
 }
 .stale-box {
-	background-color: #404040;
+    background-color: #404040;
 }
 .col-lg-2 {
     width: 16.66666667%;
