@@ -9,3 +9,5 @@ Firefox: https://addons.mozilla.org/en-US/firefox/addon/stylish/
 Opera: https://addons.opera.com/nb/extensions/details/stylish/  
 
 Install the style: https://userstyles.org/styles/152205/coinmarketcap-dark-theme  
+
+![CoinMarketCap](https://jaany.xyz/i/654it.png)
