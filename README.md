@@ -1,4 +1,4 @@
-# CoinMarketCap-Dark-Theme
+# CoinMarketCap Dark Theme
 A darker/grunge overhaul of the very popular CoinMarketCap.com.
 
 CSS code for use on CoinMarketCap.  
@@ -11,6 +11,5 @@ Opera: https://addons.opera.com/nb/extensions/details/stylish/
 
 Install the style: https://userstyles.org/styles/152205/coinmarketcap-dark-theme  
 
-## CoinMarketCap Look
-Preview of current published code:
+## Preview of Current Code
 ![CoinMarketCap](https://jaany.xyz/i/654it.png)
