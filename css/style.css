@@ -98,8 +98,8 @@ img.sparkline {
 }
 .nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus {
     color: #777 !important;
-    background-color: #303030;
-    border: 1px solid #303030;
+    background-color: #262626 !important;
+    border: 1px solid #262626;
     border-bottom-color: transparent;
     cursor: default;
 }
@@ -262,6 +262,14 @@ table#currencies-all>tbody>tr>td {
 }
 .nav-tabs>li>a:hover {
     background-color: #262626 !important;
-    color: #777 !important;
-    border-color: #303030 !important;
+    color: #ccc !important;
+    border-color: #262626 !important;
+}
+a.currency-name-container {
+    font-weight: 300;
+    color: #ddd !important;
+}
+a:hover, a:focus {
+    color: #777;
+    text-decoration: underline;
 }
