@@ -80,8 +80,8 @@ img.sparkline {
     border: 0px solid #aaaaaa;
     width: 166px;
     height: 50px;
-    -webkit-filter: invert(84%); /* Chrome, Safari, Opera */
-    filter: invert(84%);
+    -webkit-filter: invert(60%); /* Chrome, Safari, Opera */
+    filter: invert(60%);
 }
 .form-control {
     display: block;
