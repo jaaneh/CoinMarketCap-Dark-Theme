@@ -152,6 +152,7 @@ hr {
 }
 .dropdown-menu>li>a:hover {
     background-color: #383838 !important;
+    color: #ccc !important;
 }
 .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus {
     background-color: #262626 !important;
@@ -270,6 +271,9 @@ a.currency-name-container {
     color: #ddd !important;
 }
 a:hover, a:focus {
-    color: #777;
+    color: #cecece;
     text-decoration: underline;
+}
+.nav .open>a, .nav .open>a:hover, .nav .open>a:focus {
+    background-color: #262626 !important;
 }
