@@ -277,3 +277,6 @@ a:hover, a:focus {
 .nav .open>a, .nav .open>a:hover, .nav .open>a:focus {
     background-color: #262626 !important;
 }
+th#th-added {
+    width: 92px !important;
+}
