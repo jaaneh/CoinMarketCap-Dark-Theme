@@ -7,10 +7,10 @@ body {
     background-color: #262626;
     border-color: #303030;
 }
-thead,th {
+thead, th {
     background: #404040;
     font-weight: 300;
-    color:#666;
+    color:#909090;
     margin-bottom:2px;
 }
 tbody {
