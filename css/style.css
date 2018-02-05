@@ -280,3 +280,6 @@ a:hover, a:focus {
 th#th-added {
     width: 100px !important;
 }
+#header-banner-wrapper {
+    display: none !important;
+}
