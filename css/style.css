@@ -283,3 +283,60 @@ th#th-added {
 #header-banner-wrapper {
     display: none !important;
 }
+th#th-name {
+    background-color: #404040 !important;
+}
+th#th-symbol {
+    background-color: #404040 !important;
+}
+th#th-added {
+    background-color: #404040 !important;
+}
+th#th-marketcap {
+    background-color: #404040 !important;
+}
+th#th-marketcap {
+    background-color: #404040 !important;;
+}
+th#th-price {
+    background-color: #404040 !important;
+}
+th#th-totalsupply {
+    background-color: #404040 !important;
+}
+th#th-volume {
+    background-color: #404040 !important;
+}
+th#th-platform {
+    background-color: #404040 !important;
+}
+th#th-change {
+    background-color: #404040 !important;
+}
+th#th-change24h {
+    background-color: #404040 !important;
+}
+th#gainers-th-name-24h {
+    background-color: #404040 !important;
+}
+th#gainers-th-symbol-24h {
+    background-color: #404040 !important;
+}
+th.col-rank {
+    background-color: #404040 !important;
+}
+th.text-right {
+    background-color: #404040 !important;
+}
+th.text-center {
+    background-color: #404040 !important;
+}
+th#th-marketcap-graph {
+    background-color: #404040 !important;
+}
+th#gainers-th-volume-24h {
+    background-color: #404040 !important;
+}
+.table thead tr th:after {
+    border-bottom: 0px solid #262626;
+}
