@@ -340,3 +340,10 @@ th#gainers-th-volume-24h {
 .table thead tr th:after {
     border-bottom: 0px solid #262626;
 }
+.dropdown-menu .divider {
+    background-color: #292929 !important;
+}
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus {
+    color: #ccc !important;
+    background-color: #383838 !important;
+}
