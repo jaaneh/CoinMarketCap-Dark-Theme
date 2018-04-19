@@ -347,3 +347,6 @@ th#gainers-th-volume-24h {
     color: #ccc !important;
     background-color: #383838 !important;
 }
+.btn:hover, .btn:focus {
+    color: #999 !important;
+}
