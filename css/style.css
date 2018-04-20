@@ -350,3 +350,34 @@ th#gainers-th-volume-24h {
 .btn:hover, .btn:focus {
     color: #999 !important;
 }
+th#gainers-th-name-1h {
+    background-color: #404040 !important;
+}
+th#gainers-th-symbol-1h {
+    background-color: #404040 !important;
+}
+th#gainers-th-name-7d {
+    background-color: #404040 !important;
+}
+th#gainers-th-symbol-7d {
+    background-color: #404040 !important;
+}
+div#calculator {
+    background-color: #262626 !important;
+}
+.well {
+    border: 1px solid #303030 !important;
+}
+select.form-control+.chosen-container.chosen-container-single .chosen-single {
+    background-color: #303030 !important;
+    border: 1px solid #404040 !important;
+    color: #ccc !important;
+}
+select.form-control+.chosen-container-multi.chosen-container-active .chosen-choices, select.form-control+.chosen-container.chosen-container-single.chosen-container-active .chosen-single, select.form-control+.chosen-container .chosen-search input[type=text]:focus {
+    border-color: #3a3a3a !important;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0 0 8px rgba(90, 102, 111, 0.6);
+}
+.form-control:focus {
+    border-color: #3a3a3a !important;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgb(99, 99, 99) !important;
+}
