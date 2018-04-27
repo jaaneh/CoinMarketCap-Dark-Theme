@@ -384,3 +384,9 @@ select.form-control+.chosen-container-multi.chosen-container-active .chosen-choi
 .table>tbody>tr>td {
     border-bottom: none;
 }
+th#th-source {
+    background-color: #404040 !important;
+}
+th#th-pair {
+    background-color: #404040 !important;
+}
