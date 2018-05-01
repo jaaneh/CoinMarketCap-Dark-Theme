@@ -390,3 +390,29 @@ th#th-source {
 th#th-pair {
     background-color: #404040 !important;
 }
+th#th-actions {
+    background-color: #404040 !important;
+}
+.is-theme-standard .footer {
+    border-top: 1px solid #262626 !important;
+}
+.is-theme-standard .alert-announcement {
+    background-color: #262626 !important;
+    color: #ccc !important;
+}
+button.close {
+    color: #fff !important;
+}
+.is-theme-standard .navbar.desktop {
+    background-color: #303030  !important;
+    border: 0  !important;
+    border-bottom: 1px solid #262626  !important;
+    box-shadow: 0 1px 2px 0 rgba(126,126,126,0.2)  !important;
+}
+.is-theme-standard .global-stats.desktop.outer-container {
+    background-color: #303030  !important;
+    border: 0  !important;
+    border-bottom: 1px solid #262626  !important;
+    box-shadow: 0 1px 2px 0 rgba(126,126,126,0.2)  !important;
+    margin-bottom: 2px !important
+}
