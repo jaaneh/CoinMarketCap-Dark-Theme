@@ -395,6 +395,10 @@ th#th-actions {
 }
 .is-theme-standard .footer {
     border-top: 1px solid #262626 !important;
+    background-color: #303030  !important;
+    border-bottom: 1px solid #262626  !important;
+    box-shadow: 0 1px 2px 0 rgba(126,126,126,0.2)  !important;
+    margin-bottom: 2px !important
 }
 .is-theme-standard .alert-announcement {
     background-color: #262626 !important;
@@ -415,4 +419,10 @@ button.close {
     border-bottom: 1px solid #262626  !important;
     box-shadow: 0 1px 2px 0 rgba(126,126,126,0.2)  !important;
     margin-bottom: 2px !important
+}
+.brand-image.default {
+    filter: brightness(100);
+}
+.navbar-brand img {
+    filter: contrast(0);
 }
