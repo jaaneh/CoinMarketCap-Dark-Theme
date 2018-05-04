@@ -426,3 +426,30 @@ button.close {
 .navbar-brand img {
     filter: contrast(0);
 }
+.alt-image.default, .alt-image.inverse {
+    background: url(https://s2.coinmarketcap.com/static/cloud/img/coinmarketcap_white_1.svg) !important;
+    height: 41px !important;
+    width: 239px !important;
+}
+label.btn.btn-default.btn-sm.active {
+    color: #647076 !important;
+    background-color: #262626 !important;
+    border-color: #444 !important;
+}
+label.btn.btn-default.btn-sm {
+    color: #647076 !important;
+    background-color: #303030 !important;
+    border-color: #444 !important;
+}
+.night-mode .btn-group>.btn:hover, .night-mode .btn-group-vertical>.btn:hover, .night-mode .btn-group>.btn:focus, .night-mode .btn-group-vertical>.btn:focus {
+    background-color: #303030 !important;
+    border-color: #444 !important;
+}
+.is-theme-standard .toolbar-tool-icon {
+    background-color: #262626  !important;
+    border: 1px solid #444  !important;
+}
+.is-theme-standard .watchlist-star.is-deselected {
+    background-color: #262626  !important;
+    border: 1px solid #444  !important;
+}
