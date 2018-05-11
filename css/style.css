@@ -481,3 +481,50 @@ button.btn.btn-xs.dropdown-toggle.global-currency-dropdown {
 button.btn.btn-xs.dropdown-toggle.global-currency-dropdown:hover {
     color: #ccc;
 }
+
+
+/* SMALLER SCREEN FIX */
+@media only screen and (max-width: 767px) {
+	.DTFC_Cloned td {
+    	background-color: #404040 !important;
+	}
+	.DTFC_LeftWrapper .DTFC_LeftHeadWrapper, .DTFC_LeftWrapper .DTFC_LeftBodyWrapper {
+    	display: none !important;
+	}
+	.list-group-item {
+    	background-color: #303030;
+	}
+	.is-theme-standard .global-stats.mobile .list-group-item {
+    	border-left: 0px;
+    	border-right: 0px;
+	}
+	.is-theme-standard .global-stats.mobile .list-group-item.main {
+    	border-bottom: 0px;
+    	box-shadow: 0 2px 6px 0 rgba(0,0,0,0.08);
+	}
+	.is-theme-standard .global-stats.mobile .list-group-item.last {
+    	border-bottom: solid 1px rgba(0,0,0,0.08);
+	}
+	h2.brand {
+    	background-color: #303030 !important;
+	}
+	.alt-image.default, .alt-image.inverse {
+    	background: none !important;
+	}
+	.is-theme-standard .navbar.mobile {
+    	border-bottom: 0px;
+    	box-shadow: 0 2px 6px 0 rgba(0,0,0,0.08);
+	}
+	.is-theme-standard .alt-image.inline.default {
+    	display: block !important;
+	}
+	img.alt-image.inline.default {
+    	filter: contrast(0);
+	}
+	img.alt-image.default {
+    	filter: contrast(0);
+	}
+	.alt-image.default {
+    	filter: contrast(0);
+	}
+}
