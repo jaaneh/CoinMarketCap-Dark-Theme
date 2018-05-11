@@ -97,11 +97,14 @@ img.sparkline {
     transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
 }
 .nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus {
-    color: #777 !important;
+    color: #ccc !important;
     background-color: #262626 !important;
     border: 1px solid #262626;
     border-bottom-color: transparent;
     cursor: default;
+}
+.nav-tabs>li.active>a {
+    color: #909090 !important;
 }
 .pagination>li>a:hover, .pagination>li>span:hover, .pagination>li>a:focus, .pagination>li>span:focus {
     color: #2a6496;
@@ -455,4 +458,14 @@ label.btn.btn-default.btn-sm {
 }
 th#th-more-options {
     background-color: #404040 !important;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
+	background-color: #262626 !important;
+    color: #ccc !important;
+    border-color: #262626 !important;;
+}
+.btn-primary {
+    color: #909090;
+    background-color: #262626;
+    border-color: #262626;
 }
