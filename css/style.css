@@ -50,8 +50,8 @@ a.price {
 }
 .pagination>li>a {
     color: #909090;
-    background-color: #303030!important;
-    border-color: #303030!important;
+    background-color: #262626 !important;
+    border: #262626 !important;
 }
 .dataTable td.sorting_1 {
     border: 1px solid #292929;
