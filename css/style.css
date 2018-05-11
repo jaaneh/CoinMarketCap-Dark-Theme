@@ -460,9 +460,9 @@ th#th-more-options {
     background-color: #404040 !important;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
-	background-color: #262626 !important;
+    background-color: #262626 !important;
     color: #ccc !important;
-    border-color: #262626 !important;;
+    border-color: #262626 !important;
 }
 .btn-primary {
     color: #909090;
