@@ -351,7 +351,7 @@ th#gainers-th-volume-24h {
     background-color: #383838 !important;
 }
 .btn:hover, .btn:focus {
-    color: #999 !important;
+    color: #ccc;
 }
 th#gainers-th-name-1h {
     background-color: #404040 !important;
@@ -468,4 +468,16 @@ th#th-more-options {
     color: #909090;
     background-color: #262626;
     border-color: #262626;
+}
+button.btn.btn-xs.dropdown-toggle.language-dropdown {
+    color: #909090;
+}
+button.btn.btn-xs.dropdown-toggle.language-dropdown:hover {
+    color: #ccc;
+}
+button.btn.btn-xs.dropdown-toggle.global-currency-dropdown {
+    color: #909090;
+}
+button.btn.btn-xs.dropdown-toggle.global-currency-dropdown:hover {
+    color: #ccc;
 }
