@@ -138,7 +138,8 @@ hr {
 }
 .global-stats.desktop.outer-container {
     background-color: #303030 !important;
-    border-bottom: 1px solid #5d5d5d !important;
+    border-bottom: 1px solid #424242 !important;
+    box-shadow: 0 1px 0px 0 rgba(0, 0, 0, 0)
 }
 .dropdown-menu>li>a {
     display: block;
@@ -460,9 +461,9 @@ th#th-more-options {
     background-color: #404040 !important;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
-    background-color: #262626 !important;
+	background-color: #262626 !important;
     color: #ccc !important;
-    border-color: #262626 !important;
+    border-color: #262626 !important;;
 }
 .btn-primary {
     color: #909090;
@@ -480,6 +481,18 @@ button.btn.btn-xs.dropdown-toggle.global-currency-dropdown {
 }
 button.btn.btn-xs.dropdown-toggle.global-currency-dropdown:hover {
     color: #ccc;
+}
+.navbar.desktop {
+    background-color: #303030 !important;
+    border-bottom: 1px solid #424242 !important;
+    box-shadow: 0 1px 2px 0 rgba(53, 53, 53, 0.2) !important;
+}
+.toolbar-tool-icon {
+    background-color: #262626 !important;
+    border: 1px solid #424242 !important;
+} 
+.watchlist-star.is-deselected {
+    background-color: #262626 !important;
 }
 
 
