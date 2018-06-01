@@ -12,3 +12,4 @@ Opera: https://addons.opera.com/nb/extensions/details/stylish/
 Install the style: https://userstyles.org/styles/152205/coinmarketcap-dark-theme  
 
 ## Preview of Current Code
+![CoinMarketCap](https://jaany.xyz/i/CMC.png)
