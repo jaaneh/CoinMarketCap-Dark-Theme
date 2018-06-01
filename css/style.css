@@ -539,6 +539,24 @@ footer .footer-col-content.first {
 footer h6 {
     color: #bbb;
 }
+div[style="border:2px solid #E4E6EB;border-radius: 10px;font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;min-width:285px;"] {
+    border: 1px solid #909090 !important;
+}
+div[style="border-top: 1px solid #E4E6EB;clear:both;"] {
+    border-top: 1px solid #909090 !important;
+}
+div[style="text-align:center;float:left;width:33%;font-size:12px;padding:12px 0;border-right:1px solid #E4E6EB;line-height:1.25em;"] {
+    border-right: 1px solid #909090 !important;
+}
+div[style="text-align:center;float:left;width:33%;font-size:12px;padding:12px 0 16px 0;border-right:1px solid #E4E6EB;line-height:1.25em;"] {
+    border-right: 1px solid #909090 !important;
+}
+div[style="border-top: 1px solid #E4E6EB;text-align:center;clear:both;font-size:10px;font-style:italic;padding:5px 0;"] {
+    border-top: 1px solid #909090 !important;
+}
+a[style="text-decoration: none; color: rgb(66, 139, 202);"] {
+    color: #ccc !important;
+}
 
 /* SMALLER SCREEN FIX */
 @media only screen and (max-width: 767px) {
