@@ -557,6 +557,35 @@ div[style="border-top: 1px solid #E4E6EB;text-align:center;clear:both;font-size:
 a[style="text-decoration: none; color: rgb(66, 139, 202);"] {
     color: #ccc !important;
 }
+th.sort-caret-right {
+    background-color: #404040 !important;
+}
+.timeline-Widget {
+    background-color: #262626 !important;
+}
+.timeline-Header-title {
+    color: #cecece !important;
+}
+.timeline-Tweet:hover:hover {
+    background-color: #222 !important;
+}
+.customisable, .customisable:link, .customisable:visited {
+    color: #7cacd2 !important;
+}
+.reddit-header {
+    background-color: #262626 !important;
+    border-bottom: 1px solid #424242 !important;
+}
+.rembeddit {
+	background-color: #262626 !important;
+    border: 1px solid #424242 !important;
+}
+a.reddit-link-title.may-blank {
+    color: #cccccc !important;
+}
+h4.reddit-title > a {
+    color: #7cacd2 !important;
+}
 
 /* SMALLER SCREEN FIX */
 @media only screen and (max-width: 767px) {
