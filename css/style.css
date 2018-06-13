@@ -1,11 +1,7 @@
 body {
-    color: #ccc;
-    background-color: #303030;
+    color: #ccc !important;
+    background-color: #303030 !important;
     font-weight: 300 !important;
-}
-.navbar-default {
-    background-color: #262626;
-    border-color: #303030;
 }
 thead, th {
     background: #404040;
@@ -16,11 +12,20 @@ thead, th {
 li {
     color: #909090;
 }
+.details-list-item-icon {
+    color: #909090;
+}
 h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
     color: #909090;
 }
 tbody {
     background: #404040;
+}
+.footer-header {
+    color: #bbbbbb; 
+}
+.footer-section {
+    border-right: 1px solid #424242;
 }
 a.currency-name-container {
     font-weight: 300;
@@ -60,7 +65,8 @@ a.price {
     border: #262626 !important;
 }
 .dataTable td.sorting_1 {
-    border: 1px solid #292929;
+    border-right: 1px solid #303030;
+    border-left: 0px;
 }
 .sorting_asc {
     border-left: 0px solid #303030;
@@ -127,6 +133,10 @@ img.sparkline {
 }
 thead tr {
     border-top: 0px solid #303030;
+    border-bottom: 1px solid #303030;
+}
+tr.odd, tr.even {
+    border-bottom: 1px solid #303030;
 }
 .coin-summary-item h3 {
     border-top: 0px solid #DDD;
@@ -171,9 +181,6 @@ hr {
     background-color: #262626 !important;
     color: #777 !important;
 }
-.nav-tabs>li>a.dropdown-toggle, .open>a:hover {
-    background-color: #303030;
-}
 .nav-tabs>li>a {
     margin-right: 2px;
     line-height: 1.42857143;
@@ -202,7 +209,6 @@ table#currencies>tbody>tr>td {
     vertical-align: middle;
     border-bottom: 1px solid #303030;
     border-top: 1px solid #303030;
-    box-shadow: 0 0px 0px 0 rgba(0,0,0,0.15), 0 0 0 1px rgba(0,0,0,0.08);
 }
 .language-dropdown, .global-currency-dropdown {
     background-color: #262626;
@@ -215,7 +221,13 @@ table#currencies>tbody>tr>td {
     padding: 8px;
     line-height: 1.42857143;
     vertical-align: top;
-    border-top: 1px solid #303030;
+    box-shadow: none;
+}
+.toolbar-tool-icon .glyphicon {
+    color: #ffffff;
+}
+h5.coin-summary-item-header {
+    font-weight: 100;
 }
 ::-webkit-scrollbar { 
     display: none; 
@@ -274,9 +286,6 @@ table#currencies-all>tbody>tr>td {
     background-color: #303030;
     border-color: #444;
 }
-.dropdown-menu>li>a:hover {
-    background-color: #383838 !important;
-}
 .nav-tabs>li>a {
     margin-right: 2px;
     line-height: 1.42857143;
@@ -305,84 +314,43 @@ th#th-added {
 #header-banner-wrapper {
     display: none !important;
 }
-th#th-name {
-    background-color: #404040 !important;
-}
-th#th-symbol {
-    background-color: #404040 !important;
-}
-th#th-added {
-    background-color: #404040 !important;
-}
-th#th-marketcap {
-    background-color: #404040 !important;
-}
-th#th-marketcap {
-    background-color: #404040 !important;;
-}
-th#th-price {
-    background-color: #404040 !important;
-}
-th#th-totalsupply {
-    background-color: #404040 !important;
-}
-th#th-volume {
-    background-color: #404040 !important;
-}
-th#th-platform {
-    background-color: #404040 !important;
-}
-th#th-change {
-    background-color: #404040 !important;
-}
-th#th-change24h {
-    background-color: #404040 !important;
-}
-th#gainers-th-name-24h {
-    background-color: #404040 !important;
-}
-th#gainers-th-symbol-24h {
-    background-color: #404040 !important;
-}
-th.col-rank {
-    background-color: #404040 !important;
-}
-th.text-right {
-    background-color: #404040 !important;
-}
-th.text-center {
-    background-color: #404040 !important;
-}
-th#th-marketcap-graph {
-    background-color: #404040 !important;
-}
-th#gainers-th-volume-24h {
+#th-name,
+#th-symbol,
+#th-added,
+#th-marketcap,
+#th-marketcap,
+#th-price,
+#th-totalsupply,
+#th-volume,
+#th-platform,
+#th-change,
+#th-change24h,
+#gainers-th-name-24h,
+#gainers-th-symbol-24h,
+th.col-rank,
+th.text-right,
+th.text-center,
+th.sort-caret-right,
+#th-marketcap-graph,
+#gainers-th-volume-24h,
+#gainers-th-name-1h,
+#gainers-th-symbol-1h,
+#gainers-th-name-7d,
+#gainers-th-symbol-7d,
+#th-source,
+#th-pair,
+#th-actions,
+#th-more-options {
     background-color: #404040 !important;
 }
 .table thead tr th:after {
     border-bottom: 0px solid #262626;
 }
 .dropdown-menu .divider {
-    background-color: #292929 !important;
-}
-.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus {
-    color: #ccc !important;
-    background-color: #383838 !important;
+    background-color: #303030 !important;
 }
 .btn:hover, .btn:focus {
     color: #ccc;
-}
-th#gainers-th-name-1h {
-    background-color: #404040 !important;
-}
-th#gainers-th-symbol-1h {
-    background-color: #404040 !important;
-}
-th#gainers-th-name-7d {
-    background-color: #404040 !important;
-}
-th#gainers-th-symbol-7d {
-    background-color: #404040 !important;
 }
 div#calculator {
     background-color: #262626 !important;
@@ -402,18 +370,6 @@ select.form-control+.chosen-container-multi.chosen-container-active .chosen-choi
 .form-control:focus {
     border-color: #3a3a3a !important;
     box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgb(99, 99, 99) !important;
-}
-.table>tbody>tr>td {
-    border-bottom: none;
-}
-th#th-source {
-    background-color: #404040 !important;
-}
-th#th-pair {
-    background-color: #404040 !important;
-}
-th#th-actions {
-    background-color: #404040 !important;
 }
 .is-theme-standard .footer {
     border-top: 1px solid #262626 !important;
@@ -476,9 +432,6 @@ label.btn.btn-default.btn-sm {
     background-color: #262626  !important;
     border: 1px solid #444  !important;
 }
-th#th-more-options {
-    background-color: #404040 !important;
-}
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
 	background-color: #262626 !important;
     color: #ccc !important;
@@ -532,7 +485,10 @@ button#currency-switch-button:hover {
     box-shadow: inset 0 0 0 rgba(0, 0, 0, 0) !important;
 }
 #reportrange {
-    border: 1px solid #404040;
+    border-top: 1px solid #404040;
+    border-left: 1px solid #404040;
+    border-right: 1px solid #404040;
+    border-bottom: 0;
 }
 .ranges li {
     background-color: #404040;
@@ -578,9 +534,6 @@ div[style="border-top: 1px solid #E4E6EB;text-align:center;clear:both;font-size:
 a[style="text-decoration: none; color: rgb(66, 139, 202);"] {
     color: #ccc !important;
 }
-th.sort-caret-right {
-    background-color: #404040 !important;
-}
 .timeline-Widget {
     background-color: #262626 !important;
 }
@@ -618,25 +571,39 @@ h4.reddit-title > a {
 .floating-header thead tr th:after {
 	border-bottom: 0px solid #303030 !important;
 }
-.table>thead>tr>th, .table>thead>tr>td, .table>tbody>tr>th, .table>tbody>tr>td, .table>tfoot>tr>td {
-    box-shadow: 0 0px 0px 0 rgba(0,0,0,0.15), 0 0 0 1px rgba(0,0,0,0.08);
-}
 .coin-summary-item-header {
     background-color: #262626;
 	border-bottom: 1px solid #262626;
 }
-.text-gray {
-    color: #909090;
-}
+.text-gray,
+.text-gray-light, 
 .link-secondary {
     color: #909090;
 }
 .link-secondary:hover, .link-secondary:focus {
     color: #cecece;
 }
+.nav-tabs .section-heading {
+    background-color: #292929;
+    color: #ccc;
+}
+.glyphicon.glyphicon-search.form-control-feedback {
+    filter: invert(100%);
+}
+.alert-warning {
+    background-color: #6b2f2f;
+    border-color: #424242;
+    color: #ccc;
+}
+.label {
+    font-size: 11px;
+}
+tr.text-right {
+    border-bottom: 1px solid #303030;
+}
 
 /* SMALLER SCREEN FIX */
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 991px) {
 	.DTFC_Cloned td {
     	background-color: #404040 !important;
 	}
@@ -679,4 +646,16 @@ h4.reddit-title > a {
 	.alt-image.default {
     	filter: contrast(0);
 	}
+    .alt-image.default, .alt-image.inverse {
+    	background: inherit !important;
+    	height: inherit !important;
+    	width: inherit !important;
+    	filter: invert(75%);
+	}
+    .global-stats {
+     	color: #ccc;
+    }
+    thead tr {
+    	border-bottom: 0;
+ 	}
 }
