@@ -13,6 +13,12 @@ thead, th {
     color:#909090;
     margin-bottom:2px;
 }
+li {
+    color: #909090;
+}
+h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
+    color: #909090;
+}
 tbody {
     background: #404040;
 }
@@ -141,6 +147,9 @@ hr {
     border-bottom: 1px solid #424242 !important;
     box-shadow: 0 1px 0px 0 rgba(0, 0, 0, 0)
 }
+.global-stats {
+    box-shadow: 0 1px 0px 0 rgba(0, 0, 0, 0);
+}
 .dropdown-menu>li>a {
     display: block;
     padding: 3px 20px;
@@ -164,7 +173,6 @@ hr {
 }
 .nav-tabs>li>a.dropdown-toggle, .open>a:hover {
     background-color: #303030;
-    border: 1px solid #262626 !important;
 }
 .nav-tabs>li>a {
     margin-right: 2px;
@@ -173,6 +181,16 @@ hr {
 }
 .navbar-default .navbar-nav>li>a:hover {
     color: #adadad;
+}
+.sitenav .navbar-nav>li>a, .sitenav .navbar-nav>.open>a, .sitenav .navbar-nav>.open>a:hover, .sitenav .navbar-nav>.open>a:focus {
+    background-color: #303030;
+    color: #777;
+    font-weight: 500;
+}
+.sitenav {
+    box-shadow: 0 0 0 0 rgba(0,0,0,0.15), 0 0 0 1px rgba(0,0,0,0.08);
+    background-color: #303030;
+    border-color: #303030;
 }
 .nav>li>a:hover {
     color: #adadad;
@@ -434,6 +452,7 @@ button.close {
     background: url(https://s2.coinmarketcap.com/static/cloud/img/coinmarketcap_white_1.svg) !important;
     height: 41px !important;
     width: 239px !important;
+    filter: invert(75%);
 }
 label.btn.btn-default.btn-sm.active {
     color: #647076 !important;
@@ -498,6 +517,8 @@ button.btn.btn-xs.dropdown-toggle.global-currency-dropdown:hover {
     color: #909090 !important;
     background-color: #262626 !important;
     border-color: #262626 !important;
+    padding-left: 12px;
+    padding-right: 12px;
 }
 button#currency-switch-button:hover {
     color: #ccc !important;
@@ -585,6 +606,27 @@ a.reddit-link-title.may-blank {
 }
 h4.reddit-title > a {
     color: #7cacd2 !important;
+}
+@media (min-width: 1200px) {
+	.semifluid.container {
+    	padding-right: 0px !important;
+	}
+}
+.nav-tabs .active {
+    font-weight: inherit;
+}
+.floating-header thead tr th:after {
+	border-bottom: 0px solid #303030 !important;
+}
+.table>thead>tr>th, .table>thead>tr>td, .table>tbody>tr>th, .table>tbody>tr>td, .table>tfoot>tr>td {
+    box-shadow: 0 0px 0px 0 rgba(0,0,0,0.15), 0 0 0 1px rgba(0,0,0,0.08);
+}
+.coin-summary-item-header {
+    background-color: #262626;
+	border-bottom: 1px solid #262626;
+}
+.text-gray {
+    color: #909090;
 }
 
 /* SMALLER SCREEN FIX */
