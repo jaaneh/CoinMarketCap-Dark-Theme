@@ -628,6 +628,12 @@ h4.reddit-title > a {
 .text-gray {
     color: #909090;
 }
+.link-secondary {
+    color: #909090;
+}
+.link-secondary:hover, .link-secondary:focus {
+    color: #cecece;
+}
 
 /* SMALLER SCREEN FIX */
 @media only screen and (max-width: 767px) {
