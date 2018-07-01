@@ -461,10 +461,21 @@ button.btn.btn-xs.dropdown-toggle.global-currency-dropdown:hover {
 }
 .toolbar-tool-icon {
     background-color: #262626 !important;
-    border: 1px solid #424242 !important;
+    border: 0;
 } 
+.toolbar-tool--icon {
+    background-color: #262626 !important;
+    border: 0;
+}
+.glyphicons.glyphicons-search.form-control-feedback {
+    color: #909090 !important;
+}
 .watchlist-star.is-deselected {
     background-color: #262626 !important;
+}
+.watchlist-star.is-deselected .glyphicons,
+.toolbar-tool--icon .glyphicons {
+    color: #909090 !important;
 }
 .btn-default {
     color: #909090 !important;
@@ -587,6 +598,9 @@ h4.reddit-title > a {
     background-color: #292929;
     color: #ccc;
 }
+.nav-tabs__icon {
+	color: inherit !important;
+}
 .glyphicon.glyphicon-search.form-control-feedback {
     filter: invert(100%);
 }
@@ -597,9 +611,13 @@ h4.reddit-title > a {
 }
 .label {
     font-size: 11px;
+    padding: 3px 8px;
 }
 tr.text-right {
     border-bottom: 1px solid #303030;
+}
+.details-list-item-icon {
+    line-height: 20px !important;
 }
 
 /* SMALLER SCREEN FIX */
