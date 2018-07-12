@@ -619,6 +619,10 @@ tr.text-right {
 .details-list-item-icon {
     line-height: 20px !important;
 }
+.cmc-logo_color_grey,
+.cmc-logo_color_black {
+    filter: invert(100%);
+}
 
 /* SMALLER SCREEN FIX */
 @media only screen and (max-width: 991px) {
