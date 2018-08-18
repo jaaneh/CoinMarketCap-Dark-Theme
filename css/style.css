@@ -623,6 +623,11 @@ tr.text-right {
 .cmc-logo_color_black {
     filter: invert(100%);
 }
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus {
+    color: #777;
+    text-decoration: none;
+    background-color: #303030;
+}
 
 /* SMALLER SCREEN FIX */
 @media only screen and (max-width: 991px) {
