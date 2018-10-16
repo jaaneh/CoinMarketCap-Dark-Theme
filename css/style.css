@@ -628,6 +628,48 @@ tr.text-right {
     text-decoration: none;
     background-color: #303030;
 }
+.toolbar-button {
+    background: #262626;
+    color: #777;
+    border: 0;
+    box-shadow: none;
+}
+.toolbar-button:hover,
+.toolbar-button:focus .glyphicons, 
+.toolbar-button:hover .glyphicons {
+    color: #adadad !important;
+}
+.buy-button {
+    background: #262626;
+    color: #ccc;
+}
+.buy-button:hover,
+.buy-button:focus {
+    background: #262626;
+    color: #fff;
+}
+.popover {
+    background: #303030;
+}
+.popover.bottom>.arrow:after {
+    border-bottom-color: #303030;
+}
+.nav-tabs .open>a,
+.nav-tabs .open>a:hover,
+.nav-tabs .open>a:focus,
+.nav-tabs>li>.dropdown-toggle:focus {
+    border-color: #262626;
+    color: #ccc;
+}
+.nav-tabs>li>a:hover,
+.nav-tabs>li>a:focus {
+    background-color: #262626;
+    border-color: #262626;
+    color: #ccc;
+}
+.border-top {
+    border-top: 1px solid #444;
+}
 
 /* SMALLER SCREEN FIX */
 @media only screen and (max-width: 991px) {
