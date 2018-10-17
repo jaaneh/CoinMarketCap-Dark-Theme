@@ -3,7 +3,7 @@ A darker/grunge overhaul of the very popular CoinMarketCap.com.
 
 CSS code for use on CoinMarketCap.  
 
-## Easy Install
+## How To Install
 Download and install the Stylish extension:  
 Chrome: https://chrome.google.com/webstore/detail/stylish-custom-themes-for/fjnbnpbmkenffdnngjfgmeleoegfcffe  
 Firefox: https://addons.mozilla.org/en-US/firefox/addon/stylish/  
