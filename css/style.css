@@ -670,6 +670,11 @@ tr.text-right {
 .border-top {
     border-top: 1px solid #444;
 }
+.related-links-panel__header {
+    background-color: #262626;
+    padding: 12px 12px 11px;
+    border-bottom: 1px solid #262626;
+}
 
 /* SMALLER SCREEN FIX */
 @media only screen and (max-width: 991px) {
