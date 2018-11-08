@@ -675,6 +675,9 @@ tr.text-right {
     padding: 12px 12px 11px;
     border-bottom: 1px solid #262626;
 }
+.nav-tabs .open>a, .nav-tabs .open>a:hover, .nav-tabs .open>a:focus, .nav-tabs>li>.dropdown-toggle:focus {
+    background-color: #262626;
+}
 
 /* SMALLER SCREEN FIX */
 @media only screen and (max-width: 991px) {
