@@ -678,6 +678,14 @@ tr.text-right {
 .nav-tabs .open>a, .nav-tabs .open>a:hover, .nav-tabs .open>a:focus, .nav-tabs>li>.dropdown-toggle:focus {
     background-color: #262626;
 }
+.cmc-newsletter-signup {
+    background-color: #404040;
+}
+.cmc-newsletter-signup__input--email,
+.cmc-newsletter-signup__input:focus {
+    background-color: #303030;
+    color: #ccc;
+}
 
 /* SMALLER SCREEN FIX */
 @media only screen and (max-width: 991px) {
